@@ -114,14 +114,14 @@ This project require some prequesites and dependenscies to be installed, you can
    - In psql run the following to create the dev database
 
      ```bash
-     CREATE DATABASE udagram;
+     CREATE DATABASE database-1;
      ```
 
    - Connect to the databases and grant all privileges
 
      ```bash
-     \c udagram;
-     GRANT ALL PRIVILEGES ON DATABASE udagram TO project_user;
+     \c database-1;
+     GRANT ALL PRIVILEGES ON DATABASE database-1 TO project_user;
      ```
 
 5. Enviromental Variables Set up
@@ -135,7 +135,7 @@ This project require some prequesites and dependenscies to be installed, you can
      POSTGRES_USERNAME= "postgres"
      POSTGRES_PASSHORD= "postgres"
      RDS_DIALECT="postgres"
-     POSTGRES_DB="udagram"
+     POSTGRES_DB="database-1"
      AWS_REGION=""
      AWS_PROFILE=""
      AWS_BUCKET=""
